@@ -87,6 +87,9 @@ public class Main {
                     }
                     break;
                 case 5:
+                    if(myplaylist !=null && itr !=null){
+                        itr.remove();
+                    }
                     break;
                 case 6:
                     printsong(myplaylist);
